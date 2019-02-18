@@ -22,6 +22,28 @@ public class Main {
         // git status
 
         // 执行某个文件进行版本控制
-        // git add
+        // git add 文件
+
+        // 红色: 未进行版本控制的文件
+        // 绿色: 新增文件
+
+        // git信息配置
+        // git config --global user.name "姓名"
+        // git config --global user.email "邮箱"
+
+        // 删除git的配置信息
+        // git config --global --unset user.email
+
+        // 查看git信息配置
+        // git config --global --list
+
+        // 注:
+        // --system: 系统
+        // --global: 当前用户
+        // --local: 当前仓库
+
+        // 提交修改
+        // git commit -m "注释"
+
     }
 }
