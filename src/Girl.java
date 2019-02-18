@@ -41,4 +41,8 @@ public class Girl {
     public void rest() {
         System.out.println(name + "休息");
     }
+
+    public void playGame() {
+        System.out.println("玩游戏");
+    }
 }
