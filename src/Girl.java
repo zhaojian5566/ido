@@ -33,4 +33,9 @@ public class Girl {
                 ", age=" + age +
                 '}';
     }
+
+    public void shopping() {
+        System.out.println(name + "购物");
+    }
+
 }
