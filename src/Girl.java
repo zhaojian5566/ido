@@ -38,4 +38,7 @@ public class Girl {
         System.out.println(name + "购物");
     }
 
+    public void rest() {
+        System.out.println(name + "休息");
+    }
 }
